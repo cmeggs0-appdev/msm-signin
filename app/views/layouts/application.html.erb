@@ -18,7 +18,7 @@
   <body>
     <nav>
       <ul>
-        <% if :user_id != nil %>
+        <% if session[:user_id] != nil %>
           <li><a href="user_sign_out">Sign out</a>
           </li>
           <li><a href="bookmarks">My bookmarks</a>
